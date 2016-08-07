@@ -5,9 +5,9 @@
   <title>Барбершоп «Бородинский»</title>
 </head>
 <body>
-<header class="main-header">
+<header class="header">
   <div class="container">
-    <nav class="main-navigation">
+    <nav class="navigation">
       <ul>
         <li>
           <a href="#">Информация</a>
@@ -32,26 +32,30 @@
   </div>
 </header>
 <main class="container">
-  <div class="index-logo">
-    <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+  <div class="logo">
+    <img src="http://placehold.it/368x204" width="368" height="204" alt="Барбершоп «Бородинский»">
   </div>
   <section class="features">
     <div class="features-item">
-      <b class="features-name">Быстро</b>
+      <b class="name">Быстро</b>
+      <!-- Вот тут добавил див под ромб, поправь если он не нужен -->
+      <div class="rhombus"></div>
       <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
     </div>
     <div class="features-item">
-      <b class="features-name">Круто</b>
+      <b class="name">Круто</b>
+      <div class="rhombus"></div>
       <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
     </div>
     <div class="features-item">
-      <b class="features-name">Дорого</b>
+      <b class="name">Дорого</b>
+      <div class="rhombus"></div>
       <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
     </div>
   </section>
   <div class="index-content">
-    <div class="index-content-left">
-      <h2 class="index-content-title">Новости</h2>
+    <div class="left">
+      <h2 class="title">Новости</h2>
       <ul class="news-preview">
         <li>
           <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
@@ -64,20 +68,22 @@
       </ul>
       <a class="btn" href="#">Все новости</a>
     </div>
-    <div class="index-content-right">
-      <h2 class="index-content-title">Фотогалерея</h2>
+    <div class="right">
+      <h2 class="title">Фотогалерея</h2>
       <div class="gallery">
         <figure class="gallery-content">
-          <img src="img/photo-1.jpg" width="286" height="164" alt="">
+          <img src="http://placehold.it/286x164" width="286" height="164" alt="">
         </figure>
         <button class="btn gallery-prev">Назад</button>
         <button class="btn gallery-next">Вперёд</button>
       </div>
     </div>
   </div>
+  <!-- Добавил полосу разделитель -->
+  <div class="strip"></div>
   <div class="index-content">
-    <div class="index-content-left">
-      <h2 class="index-content-title">Контактная информация</h2>
+    <div class="left">
+      <h2 class="title">Контактная информация</h2>
       <p>
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -91,8 +97,8 @@
       <a class="btn" href="#">Как проехать</a>
       <a class="btn" href="#">Обратная связь</a>
     </div>
-    <div class="index-content-right">
-      <h2 class="index-content-title">Записаться</h2>
+    <div class="right">
+      <h2 class="title">Записаться</h2>
       <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
       <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
         <input type="text" name="date" value="" placeholder="Дата">
