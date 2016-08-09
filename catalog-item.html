@@ -11,21 +11,21 @@
       <img src="http://placehold.it/125x72" width="125" height="72" alt="Барбершоп «Бородинский»">
     </div>
     <nav class="navigation">
-      <ul>
-        <li>
-          <a href="#">Информация</a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Информация</a>
         </li>
-        <li>
-          <a href="#">Новости</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Новости</a>
         </li>
-        <li>
-          <a href="#">Прайс-лист</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Прайс-лист</a>
         </li>
-        <li>
-          <a href="#">Магазин</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Магазин</a>
         </li>
-        <li>
-          <a href="#">Контакты</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -38,32 +38,34 @@
   <div class="content">
     <div class="top">
       <h1>Набор для путешествий "Baxter of california"</h1>
-      <div class="breadcrumbs">
-        <a href="#">Главная</a>
-        <span class="separator"></span>
-        <a href="#">Магазин</a>
-        <span class="separator"></span>
-        <a href="#">Средства для ухода</a>
-        <span class="separator"></span>
-        <span>Набор для путешествий "Baxter of california"</span>
-      </div>
+      <ul class="breadcrumbs">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Средства для ухода</a></li>
+        <li><span>Набор для путешествий "Baxter of california"</span></li>
+      </ul>
     </div>
     <div class="left">
       <div class="gallery-item">
-        <!-- Тут, мне кажется, я сделал не правильно -->
         <figure class="main-image">
           <img src="http://placehold.it/160x500" width="460" height="500" alt="Набор для путешествий 'Baxter of california'">
         </figure>
         <figure class="preview-images">
-          <img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №1">
-          <img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №2">
-          <img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №3">
+          <a href="#"><img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №1"></a>
+        </figure>
+        <figure class="preview-images">
+          <a href="#"><img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №2"></a>
+        </figure>
+        <figure class="preview-images">
+          <a href="#"><img src="http://placehold.it/140x150" width="140" height="150" alt="Набор для путешествий 'Baxter of california' №3"></a>
         </figure>
       </div>
     </div>
     <div class="right">
-      <p class="avaliable">Есть а наличии</p>
-      <p class="vendor-code">Артикул: Dexter-ae</p>
+      <div class="right-top">
+        <div class="avaliable">Есть а наличии</div>
+        <div class="vendor-code">Артикул: Dexter-ae</div>
+      </div>
       <p>
         Travel Kit – необходимый аксессуар во время любого путешествия.
         В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за
